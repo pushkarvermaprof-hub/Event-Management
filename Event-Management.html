@@ -23,7 +23,7 @@
      <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
         <div class="container">
             <a class="navbar-brand text-white" href="#">
-                <i class="bi bi-calendar-event me-2"></i>EventHub
+                <i class="bi bi-calendar-event me-2"></i>Event Manager
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
@@ -47,13 +47,13 @@
         </div>
     </nav>
 
-     <section id="home" class="hero-section text-white py-5">
+     <section id="home" class="section text-white py-5">
         <div class="container position-relative z-1">
             <div class="row align-items-center">
                 <div class="col-lg-7 fade-in-up">
                     <span class="badge bg-white text-primary px-3 py-2 rounded-pill mb-3">
                         <i class="bi bi-stars me-1"></i> 
-                        Premium Event Platform
+                        Event Platform
                     </span>
                     <h1 class="display-3 fw-bold mb-4">
                         Discover & Manage 
@@ -241,7 +241,7 @@
                             <div class="d-flex justify-content-between align-items-center">
                                 <span class="fw-bold text-primary">
 
-                                ₹25 Entry
+                                ₹25 Entry Fees 
 
                                </span>
 
@@ -368,6 +368,74 @@
             </div>
         </div>
     </section>
+
+     <footer class="text-white py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <h4 class="fw-bold mb-3"><i class="bi bi-calendar-event me-2"></i>Event Manager</h4>
+                    <p class="opacity-75">Creating unforgettable experiences and bringing people together through amazing events.</p>
+                </div>
+                <div class="col-lg-2 col-md-4">
+                    <h6 class="fw-bold mb-3">Quick Links</h6>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#" class="text-white text-decoration-none opacity-75">Home</a></li>
+                        <li class="mb-2"><a href="#" class="text-white text-decoration-none opacity-75">Events</a></li>
+                        <li class="mb-2"><a href="#" class="text-white text-decoration-none opacity-75">About</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-4">
+                    <h6 class="fw-bold mb-3">Support</h6>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#" class="text-white text-decoration-none opacity-75">FAQ</a></li>
+                        <li class="mb-2"><a href="#" class="text-white text-decoration-none opacity-75">Contact</a></li>
+                        <li class="mb-2"><a href="#" class="text-white text-decoration-none opacity-75">Privacy</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <h6 class="fw-bold mb-3">Follow Us</h6>
+                    <div class="d-flex gap-2">
+                        <a href="#" class="btn btn-outline-light rounded-circle p-2"><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="btn btn-outline-light rounded-circle p-2"><i class="bi bi-twitter-x"></i></a>
+                        <a href="#" class="btn btn-outline-light rounded-circle p-2"><i class="bi bi-instagram"></i></a>
+                        <a href="#" class="btn btn-outline-light rounded-circle p-2"><i class="bi bi-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-4 opacity-25">
+            <p class="text-center opacity-75 mb-0">&copy; 2026 EventHub. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <div class="modal fade" id="eventModal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content border-0 rounded-4">
+                <div class="modal-header border-0 pb-0">
+                    <h5 class="modal-title fw-bold">Event Registration</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body p-4">
+                    <form>
+                        <div class="mb-3">
+                            <label class="form-label">Full Name</label>
+                            <input type="text" class="form-control" placeholder="Your full name">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Email</label>
+                            <input type="email" class="form-control" placeholder="Your email">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Phone</label>
+                            <input type="tel" class="form-control" placeholder="Your phone number">
+                        </div>
+                        <button type="button" class="btn btn-register text-white w-100" data-bs-dismiss="modal">
+                            Confirm Registration
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
 
